@@ -19,13 +19,13 @@ public class AwesomeOrNot {
 		String awesome = JOptionPane.showInputDialog("Enter something that is awesome");
 		// 5. If the random number is 0
 		if (r == 0) {
-			JOptionPane.showMessageDialog(null, awesome+ "is awesome");
-		} else if(r == 1){
+			JOptionPane.showMessageDialog(null, awesome + " is awesome");
+		} else if (r == 1) {
 			JOptionPane.showMessageDialog(null, "Ok");
-			
-		}else if (r ==2) {
+
+		} else if (r == 2) {
 			JOptionPane.showMessageDialog(null, "Boring");
-		}else if (r == 3) {
+		} else if (r == 3) {
 			JOptionPane.showMessageDialog(null, "Yeet");
 		}
 		// -- tell the user whatever they entered is awesome!
